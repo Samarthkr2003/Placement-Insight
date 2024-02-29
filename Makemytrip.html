@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tech2etc Ecommerce Tutorial</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <section id="header">
+            <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+
+            <div>
+                <ul id="navbar">
+                    <!-- entering class name active for home/index.html so that when we click on home, index.html opens in website -->
+                    <li><a class="active" href="index.html">Home</a></li> 
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-basket-shopping"></i></a></li>
+                    <a href="#" id="close"><i class="far fa-times"></i></a>
+                </ul>
+            </div>
+
+            <div id="mobile">
+                <i id="bar" class="fas fa-outdent"></i>
+                <a href="cart.html"><i class="fa-solid fa-basket-shopping"></i></a>
+            </div>
+        </section>
+
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+                <img src="img/products/makemytrip.png" width="100%" id="MainImg" alt="">
+            
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="img/products/citibank.jpg" width="100%" id="small-img" alt="">
+                </div>
+                
+                    <div class="small-img-col">
+                        <img src="img/products/accenture.png" width="100%" id="small-img" alt="">
+                    </div>
+
+                  
+                        <div class="small-img-col">
+                            <img src="img/products/f3.jpg" width="100%" id="small-img" alt="">
+                        </div>
+
+                       
+                            <div class="small-img-col">
+                                <img src="img/products/f4.jpg" width="100%" id="small-img" alt="">
+                            </div>
+            </div>
+
+            </div>
+            <div class="single-pro-details">
+                <h6>Super Dream Offer</h6>
+                <h4>MakeMyTrip</h4>
+                <h5>23 LPA+</h5>
+	
+                
+                
+            
+                <input type="number" value="1">
+                <button class="normal">Add to cart</button>
+                <h4>Placement Information</h4>
+                <span><br><b>Associate Software Engineer</b></br></span>
+                <br><b>Pre Round</b>: Shortlisting based on CGPA (Above 9.05 CGPA)(650 students shortlisted)</br>
+                    <b>Round 1: Online Assesement Round</b>- Hackerrank test 15mcq, 2 coding q(graphs, dp, array)
+                    <br><b>Round 2: Technical Interview</b> - (40 students) Technical interview dbms, os, dsa etc Interview </br>
+                     <br><b>Round 3: Technical Interview 2</b>- (12 students) dsa q, stakcs, trees, how do you approach, not the exact solution, they see the process, netcom, dbms 11 people got selected </br>
+                     <br><b>Round 4: HR Round</b>- (8 students) It was just a 5-minute call from HR.
+                     Wanted to know about my family background and asked about my strengths and weakness.</br>  
+                </span>
+
+                <span><br><b>Associate Software Engineer</b></br></span>
+                    <b>Round 1: Online Assesement Round</b>- 700 students selected based on CGPA</br>
+                    <br><b>Section 1: </b>This section consisted of 20 MCQ’s from the OS, DBMS, OOPS, and 3-4 SQL Queries.<br>
+                    <br><b>Section 2: </b>This section consisted of 2 coding questions and they are –<br><ul style=“list-style-type:square”>
+                    <li>Given some points in the x-y coordinates and some queries. In each query, you would be given a radius of a circle and you have to find the number of points that lie on and inside the circle – Solved using Binary Search with log(N) per query and passed all TC’s.</li>
+                    <li>Given an array of N non-negative numbers. You can perform an operation on an array element, but the operation can be performed only once. The operation is select X such that 0<=X<=A[i] and reduce A[i] to A[i]-X. Check if the entire sequence can be converted into a strictly increasing sequence or not – Solved using Greedy Approach with O(N) time and passed all TC’s.</li>
+                    
+            </ul>
+            
+                    
+                     
+                   
+                     <br><b>Round 2: Techincal Round 1</b> - (39 students selected), Time - 1 hr 10 mins
+                     <br>The interview started with the interviewer asking me about my projects and why and what I have used in them. Be very clear with all the technologies you have used in your project as the interviewer will ask you in-depth about it. Next, he gave 3 coding questions –
+                     <ul style=“list-style-type:square”>
+                        <li>Given an array of integers which is sorted in ascending order. You have to find the shortest subarray that contains consecutive elements and the size of the subarray should be at least 2. For example – Consider the given array [1, 2, 3, 5, 7, 9, 10]. There are 2 subarrays with consecutive elements ie. [1, 2, 3] and [9, 10], but the array [9, 10] is the shortest in size so return it.</li>
+                        <li>You are currently on index 0 and you are given the size of an array. You have to perform K operations and you have to count the number of times you will still be on index 0 after performing those operations. There are 3 types of operations that you can perform – Stay on the current index i, Move left to index i-1 if it’s greater than or equals 0, Move right to index i+1 if it’s less than the given size. Solved using recursion and later optimized using Dynamic Programming and the interviewer was happy.</li>
+                        <li>Tower of Hanoi – Only Approach.</li>
+                    <li>Next, he started grinding me on DBMS and asked almost everything from it – from relationships to scaling, load balancing, and few complex SQL Queries on Joins which I forgot as of now 😐 and some basic questions from OS like multithreading and semaphores.</li>
+                
+            </ul>
+                     </br>
+                     <br><b>Round 3: Techincal Interview 2</b> -  Number of selected Students – 12
+
+                     Time – 30 Mins
+                     <ul style=“list-style-type:square”>
+                        <li>  The interviewer was VP of Engineering at MakeMyTrip with more than 10 years of experience.</li>
+                        <li>He asked about the 4 Pillars of OOPS and we had an in-depth discussion with real-life applications for each of them. </li>
+                        <li>Then he asked me to find the Square root of a number without using any inbuilt function with fractional part too – Solved using Binary Search and he was happy.
+                        </li>
+                    </ul>
+                    </br>
+
+                    <br><b>Round 4: HR Interview 2</b> -  Number of selected Students – 8
+
+                    Time – 5 Mins
+                    
+                     <ul style=“list-style-type:square”>
+                        <li> It was just a 5-minute call from HR.</li>
+                        <li> Wanted to know about my family background and asked about my strengths and weakness. </li>
+                        <li> One final question Why do you want to join MakeMyTrip? (7 STUDENTS WERE SELECTED FOR THE JOB)
+                        </li>
+                    </ul>
+                    </br> 
+
+                </span>
+
+
+                
+
+
+                </span>
+            </div>
+
+        </section>
+       
+        <section id="product1" class="section-p1">
+            <h2>Featured Products</h2>
+            <p>Summer  Collection</p>
+            <div class="pro-container">
+
+
+                <div class="pro">
+                    <img src="img/products/f1.jpg" alt="">
+                    <div class="des">
+                        <span>Adidas</span>
+                        <h5>Cartoon Astonaut Tshirts</h5>
+                        <div class="star">
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="pro">
+                    <img src="img/products/f2.jpg" alt="">
+                    <div class="des">
+                        <span>Adidas</span>
+                        <h5>Cartoon Astonaut Tshirts</h5>
+                        <div class="star">
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="pro">
+                    <img src="img/products/f3.jpg" alt="">
+                    <div class="des">
+                        <span>Adidas</span>
+                        <h5>Cartoon Astonaut Tshirts</h5>
+                        <div class="star">
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="pro">
+                    <img src="img/products/f1.jpg" alt="">
+                    <div class="des">
+                        <span>Adidas</span>
+                        <h5>Cartoon Astonaut Tshirts</h5>
+                        <div class="star">
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+                
+
+
+                
+            </div>
+        </section>
+
+
+     
+        
+
+
+        
+
+        <section id="newsletter" class="section-p1 section-m1">
+            <div class="newstext">
+                <h4>Sign Up For Newsletter</h4>
+                <p>Get E-Mail updates about our latest shop and <span>special offers.</span>
+                </p>
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Your email address">
+                <button class="normal">Sign up</button>
+            </div>
+        </section>
+
+        <footer class="section-p1">
+            <div class="col">
+                <img class="logo" src="img/logo.png" alt="">
+                <h4>Contact</h4>
+                <p><strong>Address:</strong> 562 Wellington Road, street 32</p>
+                <p><strong>Phone:</strong>+01 2222 365</p>
+                <p><strong>Hourse: </strong> 10:00 - 18:00, Mon - Sat</p>
+                <div class="icon">
+                    <h4>Follow us</h4>
+                    <div class="icon">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-pinterest-p"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <h4>About</h4>
+                <a href="#">About us</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms and Conditions</a>
+                <a href="#">Contact us</a>
+                
+            </div>
+
+            <div class="col">
+                <h4>About</h4>
+                <a href="#">Sign In</a>
+                <a href="#">View cart</a>
+                <a href="#">My Wishlist</a>
+                <a href="#">Track My Order</a>
+                <a href="#">Help</a>
+            </div>
+
+            <div class="col install">
+                <h4>Install App</h4>
+                <p>From App Store or Google Play</p>
+                <div class="row">
+                    <img src="img/pay/app.jpg" alt="">
+                    <img src="img/pay/play.jpg" alt="">   
+                </div>
+                <p>Secure Payment Gateways</p>
+                <img src="img/pay/pay.png" alt="">
+            </div>
+        </footer>
+
+        <script>
+        var MainImg=document.getElementById("MainImg");
+        var smallimg=document.getElementByClassName("small-img");
+
+        smallimg[0].onclick=function(){
+            MainImg.src=smallimg[0].src;
+        }
+        smallimg[1].onclick=function(){
+            MainImg.src=smallimg[1].src;
+        }
+        smallimg[2].onclick=function(){
+            MainImg.src=smallimg[2].src;
+        }
+        smallimg[3].onclick=function(){
+            MainImg.src=smallimg[3].src;
+        }
+
+        </script>
+
+        
+        <script src="script.js"></script>
+    </body>
+
+</html>
